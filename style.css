@@ -5,7 +5,7 @@ canvas {
 
 html, body {
   margin: 25px;
-  background-color: rgb(158, 165, 158);
+  background-color: rgb(238, 238, 238);
   font-family: Helvetica, sans-serif, sans-serif;
   font-size: 14px;
   overflow: hidden; 
@@ -26,7 +26,7 @@ h1 {
 
   letter-spacing: -0.05em;
 
-  color: #FFFFFF;
+  color: #704c0f;
 }
 
 h2{
@@ -50,7 +50,7 @@ h3{
   width: 60px; 
   height: 60px; 
   font-size: 45px; 
-  color: #FFFFFF;
+  color: #514654;
   padding-left: 45px;
 }
 
@@ -71,7 +71,7 @@ p {
 
   color: #FFFFFF;
 
-  background: rgba(87, 73, 174, 0.37);
+  background: #7f8b4b;
 }
 
 a {
