@@ -20,7 +20,7 @@ var target;
 var timeLeft;
 
 function setup() {
-  var canvas = createCanvas(640, 480);
+  var canvas = createCanvas(600, 700);
   canvas.position(130, 210);
   video = createCapture(VIDEO);
   video.hide();
@@ -164,7 +164,7 @@ function draw() {
 
 function nextPose(){
   if (poseCounter >= 5) {
-    console.log("Well done, you have learnt all poses!");
+    console.log("Well done, you have completed all poses!");
     document.getElementById("finish").textContent = "Amazing!";
     document.getElementById("welldone").textContent = "All poses done.";
     document.getElementById("sparkles").style.display = 'block';
