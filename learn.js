@@ -37,8 +37,8 @@ function setup() {
   imgArray[3].src = 'imgs/warrior1.svg';
   imgArray[4] = new Image();
   imgArray[4].src = 'imgs/warrior2.svg';
-  imgArray[5] = new Image();
-  imgArray[5].src = 'imgs/chair.svg';
+  //imgArray[5] = new Image();
+  //imgArray[5].src = 'imgs/chair.svg';
   
   poseCounter = 0;
   targetLabel = 1;
@@ -163,10 +163,10 @@ function draw() {
 }
 
 function nextPose(){
-  if (poseCounter >= 5) {
-    console.log("Well done, you have completed all poses!");
-    document.getElementById("finish").textContent = "Amazing!";
-    document.getElementById("welldone").textContent = "All poses done";
+  if (poseCounter >= 4) {
+    //console.log("Well done, you have completed all poses!");
+    //document.getElementById("finish").textContent = "";
+    document.getElementById("welldone").textContent = "Amazing! All poses done";
     document.getElementById("sparkles").style.display = 'block';
   }else{
     console.log("Well done, you all poses!");
