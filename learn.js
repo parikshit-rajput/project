@@ -166,7 +166,7 @@ function nextPose(){
   if (poseCounter >= 5) {
     console.log("Well done, you have completed all poses!");
     document.getElementById("finish").textContent = "Amazing!";
-    document.getElementById("welldone").textContent = "All poses done.";
+    document.getElementById("welldone").textContent = "All poses done";
     document.getElementById("sparkles").style.display = 'block';
   }else{
     console.log("Well done, you all poses!");
