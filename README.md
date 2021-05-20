@@ -1,1 +1,1 @@
-#Published @ https://parikshit-rajput.github.io/project/learn.html
+#Published @ https://parikshit-rajput.github.io/project/index.html
